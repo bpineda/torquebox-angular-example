@@ -17,3 +17,18 @@
 + Install rails
 
     gem install rails
+
++ Install torquebox gem
+
+    gem install torquebox
+
++ Install torquebox
++ Set TORQUEBOX_HOME environment variable
++ Set JBOSS_HOME environment variable
++ Generate jar file
+
+    bundle exec torquebox jar
+
++ Run with just java:
+
+    java -jar app.jar
