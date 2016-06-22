@@ -134,3 +134,5 @@ bower_components
 .bower-cache
 .bower-registry
 .bower-tmp
+
+app/db/development.sqlite3
