@@ -30,6 +30,8 @@ gem 'torquebox', '~> 4.0.0.beta3'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+gem 'puma'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
