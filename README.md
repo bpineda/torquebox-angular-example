@@ -32,3 +32,7 @@
 + Run with just java:
 
     	java -jar app.jar
+    	
++ To run rails commands with the jar file:
+
+		java -jar app.jar -S rake routes
