@@ -36,6 +36,7 @@ gem 'haml'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'haml-rails', :group => :development
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
