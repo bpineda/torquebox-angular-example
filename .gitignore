@@ -136,3 +136,4 @@ bower_components
 .bower-tmp
 
 app/db/development.sqlite3
+app.jar
