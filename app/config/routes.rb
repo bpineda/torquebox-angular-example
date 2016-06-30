@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  namespace :api do
+    root 'users#index'
+    #get 'users/index'
+  end
+
   devise_for :users
   get 'home/index'
 
@@ -7,6 +12,10 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'home#index'
+
+  namespace :api do
+    get '/test', to: 'users#index', defaults: { format: :json }
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
